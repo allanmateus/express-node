@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "name": "app_example",
+  "description": "express na pratica",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanmateus/express-node.git"
+  },
+  "author": "Allan Mateus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanmateus/express-node/issues"
+  },
+  "homepage": "https://github.com/allanmateus/express-node#readme"
+}
